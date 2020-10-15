@@ -9,10 +9,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.actitime.generics.FWutils;
-
 public class AddNewTaskPage {
-	FWutils tc=new FWutils();
+	//FWutils tc=new FWutils();
 	public WebDriver driver;
 	
 	@FindBy( xpath = "//div[contains(text(),'TASKS')]" )

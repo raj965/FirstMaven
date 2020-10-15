@@ -7,7 +7,7 @@ import com.actitime.pages.AddProject;
 import com.actitime.pages.LogInPage;
 
 public class AddCmr2 extends BaseTest {
-@Test
+@Test(invocationCount = 5)
 public void Te_01() throws InterruptedException{
 	LogInPage lp=new LogInPage(driver);
 	lp.login();
